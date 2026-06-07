@@ -1,4 +1,3 @@
-````md
 # End-to-End RAG Pipeline using PySpark, BigQuery and Vertex AI
 
 ## Project Overview
@@ -178,6 +177,25 @@ rag-data-engineering-pipeline/
 * Store embeddings in BigQuery
 
 ---
+# DEMO
+
+* RAW file in GCS bucket
+<img width="975" height="399" alt="image" src="https://github.com/user-attachments/assets/dd89f48a-ea22-4ec3-8771-4b3e676ccbf6" />
+
+* After pyspark dataproc job, transformed data gets ingested to Bigquery
+<img width="975" height="353" alt="image" src="https://github.com/user-attachments/assets/484aaf3f-26ca-4ec0-9316-0bea92682094" />
+
+<img width="975" height="423" alt="image" src="https://github.com/user-attachments/assets/11adf723-3670-43be-9fd3-e85a884f82e8" />
+
+* Create  agent platform ai workbench instance:
+<img width="975" height="403" alt="image" src="https://github.com/user-attachments/assets/6c1bf202-8734-4530-8cce-a17636046e69" />
+
+* Response from Vertex AI workbench instance RAG notebook:
+
+
+<img width="975" height="465" alt="image" src="https://github.com/user-attachments/assets/ed7e8826-f378-48fe-9638-e781c1e744d3" />
+
+
 
 # Author
 
